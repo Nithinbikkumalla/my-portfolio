@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2f2f34;
+}
+
+header {
+  background-color: #9a9090;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+header div{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+header ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+header ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+header a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.profile-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  max-width: 300px; /* Adjust as needed */
+}
+
+
+.about, .skills, .projects, .resume, .contact, footer {
+  padding: 20px 0;
+  text-align: center;
+  background: #c59c9c;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills ul li {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.projects .project {
+  display: inline-block;
+  width: 45%;
+  margin: 2.5%;
+  vertical-align: top;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  background: #fff;
+}
+button{
+  border-radius:5px ;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+}
+.project a{
+  text-decoration: none;
+}
+
+
+.projects img {
+  width: 100%;
+  height: auto;
+}
+
+.projects h3 {
+  margin: 10px 0 5px;
+}
+
+.projects p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.resume a {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.resume a:hover {
+  background-color: #34c6d7;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.contact a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
